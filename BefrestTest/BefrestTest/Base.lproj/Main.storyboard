@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qsu-XX-7yB">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xlX-aU-aMR">
+            <objects>
+                <viewController id="Qsu-XX-7yB" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jYp-dN-TW1"/>
+                        <viewControllerLayoutGuide type="bottom" id="C2z-rS-Rwf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pq0-tB-VhJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1l-ih-CGd">
+                                <rect key="frame" x="20" y="20" width="170" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Refresh"/>
+                                <connections>
+                                    <action selector="refresh:" destination="Qsu-XX-7yB" eventType="touchUpInside" id="T0V-ja-YwJ"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="push msgs ..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AcV-e9-qEo">
+                                <rect key="frame" x="20" y="62" width="560" height="430"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="refreshBtn" destination="N1l-ih-CGd" id="Bcv-Gy-psL"/>
+                        <outlet property="textView" destination="AcV-e9-qEo" id="eVi-ub-q9Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qFI-Fm-ddN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="10"/>
+        </scene>
+    </scenes>
+</document>

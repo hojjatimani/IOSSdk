@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A3E685CE1CCF74C7004A0BE5 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A3E685CF1CCF74C7004A0BE5 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				A3E685D41CCF762B004A0BE5 /* MultiPlatrotm Build */,
+			);
+			dependencies = (
+				A3E685D31CCF74E6004A0BE5 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A3E685551CCF3EB9004A0BE5 /* BRBefrest.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E685501CCF3EB9004A0BE5 /* BRBefrest.m */; };
+		A3E685561CCF3EB9004A0BE5 /* BRReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E685521CCF3EB9004A0BE5 /* BRReachability.m */; };
+		A3E685571CCF3EB9004A0BE5 /* BRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E685541CCF3EB9004A0BE5 /* BRWebSocket.m */; };
+		A3E685591CCF3EEF004A0BE5 /* BRBefrest.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E6854F1CCF3E9F004A0BE5 /* BRBefrest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3E6855A1CCF3EF9004A0BE5 /* BRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E685531CCF3EB9004A0BE5 /* BRWebSocket.h */; };
+		A3E6855B1CCF3EFC004A0BE5 /* BRReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E685511CCF3EB9004A0BE5 /* BRReachability.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3E685D21CCF74E6004A0BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3E685331CCF3D6E004A0BE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E6853A1CCF3D6E004A0BE5;
+			remoteInfo = BRBefrest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3E685391CCF3D6E004A0BE5 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3E6853B1CCF3D6E004A0BE5 /* libBRBefrest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBRBefrest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E6854F1CCF3E9F004A0BE5 /* BRBefrest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBefrest.h; sourceTree = "<group>"; };
+		A3E685501CCF3EB9004A0BE5 /* BRBefrest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBefrest.m; sourceTree = "<group>"; };
+		A3E685511CCF3EB9004A0BE5 /* BRReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRReachability.h; sourceTree = "<group>"; };
+		A3E685521CCF3EB9004A0BE5 /* BRReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRReachability.m; sourceTree = "<group>"; };
+		A3E685531CCF3EB9004A0BE5 /* BRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRWebSocket.h; sourceTree = "<group>"; };
+		A3E685541CCF3EB9004A0BE5 /* BRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRWebSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3E685381CCF3D6E004A0BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3E685321CCF3D6E004A0BE5 = {
+			isa = PBXGroup;
+			children = (
+				A3E6853D1CCF3D6E004A0BE5 /* BRBefrest */,
+				A3E6853C1CCF3D6E004A0BE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E6853C1CCF3D6E004A0BE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E6853B1CCF3D6E004A0BE5 /* libBRBefrest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E6853D1CCF3D6E004A0BE5 /* BRBefrest */ = {
+			isa = PBXGroup;
+			children = (
+				A3E6854F1CCF3E9F004A0BE5 /* BRBefrest.h */,
+				A3E685501CCF3EB9004A0BE5 /* BRBefrest.m */,
+				A3E685511CCF3EB9004A0BE5 /* BRReachability.h */,
+				A3E685521CCF3EB9004A0BE5 /* BRReachability.m */,
+				A3E685531CCF3EB9004A0BE5 /* BRWebSocket.h */,
+				A3E685541CCF3EB9004A0BE5 /* BRWebSocket.m */,
+			);
+			path = BRBefrest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3E685581CCF3EE3004A0BE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E685591CCF3EEF004A0BE5 /* BRBefrest.h in Headers */,
+				A3E6855B1CCF3EFC004A0BE5 /* BRReachability.h in Headers */,
+				A3E6855A1CCF3EF9004A0BE5 /* BRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3E6853A1CCF3D6E004A0BE5 /* BRBefrest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E685441CCF3D6E004A0BE5 /* Build configuration list for PBXNativeTarget "BRBefrest" */;
+			buildPhases = (
+				A3E685371CCF3D6E004A0BE5 /* Sources */,
+				A3E685381CCF3D6E004A0BE5 /* Frameworks */,
+				A3E685391CCF3D6E004A0BE5 /* Copy Files */,
+				A3E685581CCF3EE3004A0BE5 /* Headers */,
+				A3E685CD1CCF7090004A0BE5 /* Build Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRBefrest;
+			productName = BRBefrest;
+			productReference = A3E6853B1CCF3D6E004A0BE5 /* libBRBefrest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3E685331CCF3D6E004A0BE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Befrest;
+				TargetAttributes = {
+					A3E6853A1CCF3D6E004A0BE5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YDVYU5LKXW;
+					};
+					A3E685CE1CCF74C7004A0BE5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YDVYU5LKXW;
+					};
+				};
+			};
+			buildConfigurationList = A3E685361CCF3D6E004A0BE5 /* Build configuration list for PBXProject "BRBefrest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3E685321CCF3D6E004A0BE5;
+			productRefGroup = A3E6853C1CCF3D6E004A0BE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E6853A1CCF3D6E004A0BE5 /* BRBefrest */,
+				A3E685CE1CCF74C7004A0BE5 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3E685CD1CCF7090004A0BE5 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh /${PROJECT_DIR}/BuildScripts/build_framework.sh";
+		};
+		A3E685D41CCF762B004A0BE5 /* MultiPlatrotm Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatrotm Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh /${PROJECT_DIR}/BuildScripts/multi_platform_build.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3E685371CCF3D6E004A0BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E685561CCF3EB9004A0BE5 /* BRReachability.m in Sources */,
+				A3E685551CCF3EB9004A0BE5 /* BRBefrest.m in Sources */,
+				A3E685571CCF3EB9004A0BE5 /* BRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3E685D31CCF74E6004A0BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3E6853A1CCF3D6E004A0BE5 /* BRBefrest */;
+			targetProxy = A3E685D21CCF74E6004A0BE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3E685421CCF3D6E004A0BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3E685431CCF3D6E004A0BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3E685451CCF3D6E004A0BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				DEAD_CODE_STRIPPING = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		A3E685461CCF3D6E004A0BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				DEAD_CODE_STRIPPING = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		A3E685D01CCF74C7004A0BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3E685D11CCF74C7004A0BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3E685361CCF3D6E004A0BE5 /* Build configuration list for PBXProject "BRBefrest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E685421CCF3D6E004A0BE5 /* Debug */,
+				A3E685431CCF3D6E004A0BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E685441CCF3D6E004A0BE5 /* Build configuration list for PBXNativeTarget "BRBefrest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E685451CCF3D6E004A0BE5 /* Debug */,
+				A3E685461CCF3D6E004A0BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E685CF1CCF74C7004A0BE5 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E685D01CCF74C7004A0BE5 /* Debug */,
+				A3E685D11CCF74C7004A0BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3E685331CCF3D6E004A0BE5 /* Project object */;
+}

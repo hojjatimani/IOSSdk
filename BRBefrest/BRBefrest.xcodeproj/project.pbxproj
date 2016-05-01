@@ -28,6 +28,8 @@
 		A3E685591CCF3EEF004A0BE5 /* BRBefrest.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E6854F1CCF3E9F004A0BE5 /* BRBefrest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3E6855A1CCF3EF9004A0BE5 /* BRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E685531CCF3EB9004A0BE5 /* BRWebSocket.h */; };
 		A3E6855B1CCF3EFC004A0BE5 /* BRReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E685511CCF3EB9004A0BE5 /* BRReachability.h */; };
+		A3E6862A1CCFAE43004A0BE5 /* BRBefrestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E686281CCFAE43004A0BE5 /* BRBefrestMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3E6862B1CCFAE43004A0BE5 /* BRBefrestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E686291CCFAE43004A0BE5 /* BRBefrestMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		A3E685521CCF3EB9004A0BE5 /* BRReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRReachability.m; sourceTree = "<group>"; };
 		A3E685531CCF3EB9004A0BE5 /* BRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRWebSocket.h; sourceTree = "<group>"; };
 		A3E685541CCF3EB9004A0BE5 /* BRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRWebSocket.m; sourceTree = "<group>"; };
+		A3E686281CCFAE43004A0BE5 /* BRBefrestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBefrestMessage.h; sourceTree = "<group>"; };
+		A3E686291CCFAE43004A0BE5 /* BRBefrestMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBefrestMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				A3E685521CCF3EB9004A0BE5 /* BRReachability.m */,
 				A3E685531CCF3EB9004A0BE5 /* BRWebSocket.h */,
 				A3E685541CCF3EB9004A0BE5 /* BRWebSocket.m */,
+				A3E686281CCFAE43004A0BE5 /* BRBefrestMessage.h */,
+				A3E686291CCFAE43004A0BE5 /* BRBefrestMessage.m */,
 			);
 			path = BRBefrest;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E6862A1CCFAE43004A0BE5 /* BRBefrestMessage.h in Headers */,
 				A3E685591CCF3EEF004A0BE5 /* BRBefrest.h in Headers */,
 				A3E6855B1CCF3EFC004A0BE5 /* BRReachability.h in Headers */,
 				A3E6855A1CCF3EF9004A0BE5 /* BRWebSocket.h in Headers */,
@@ -212,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3E685561CCF3EB9004A0BE5 /* BRReachability.m in Sources */,
+				A3E6862B1CCFAE43004A0BE5 /* BRBefrestMessage.m in Sources */,
 				A3E685551CCF3EB9004A0BE5 /* BRBefrest.m in Sources */,
 				A3E685571CCF3EB9004A0BE5 /* BRWebSocket.m in Sources */,
 			);

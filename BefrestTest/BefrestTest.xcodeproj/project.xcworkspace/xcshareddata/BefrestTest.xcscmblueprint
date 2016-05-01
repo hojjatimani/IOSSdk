@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3D28B7FB4E19D8E4D924B8B70945C1B86EBF268A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3D28B7FB4E19D8E4D924B8B70945C1B86EBF268A" : 0,
+    "F4665CC9503C8A80C40CD6F0900C4520594C3442" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D0929A62-94A3-4CFD-ADA7-C64ED0253B9E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3D28B7FB4E19D8E4D924B8B70945C1B86EBF268A" : "ios\/",
+    "F4665CC9503C8A80C40CD6F0900C4520594C3442" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BefrestTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BefrestTest\/BefrestTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/befrest\/IOSSdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D28B7FB4E19D8E4D924B8B70945C1B86EBF268A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:mohammad_anisi\/push.oddrun.ir.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4665CC9503C8A80C40CD6F0900C4520594C3442"
+    }
+  ]
+}

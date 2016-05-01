@@ -1,13 +1,5 @@
-//
-//  Befrest.h
-//  SocketRocketTest
-//
-//  Created by Hojjat Imani on 11/25/1394 AP.
-//  Copyright © 1394 Hojjat Imani. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
-
+#import "BRBefrestMessage.h"
 #define BEFREST_SDK_VERSION 1
 
 #define BefrestPushReceivedNotification @"BefrestPushReceivedNotification"
@@ -35,16 +27,5 @@
 -(BRBefrest*) addTopic: (NSString*) topicName;
 -(BRBefrest*) removeTopic: (NSString*) topicName;
 -(NSArray*) currentTopics;
-
-@end
-
-@interface BefrestMessage : NSObject
-
-@property NSString* data;
-@property NSString* timeStamp;
-
-+(id) createWithData:(NSString *)data andTimeStamp: (NSString *) ts;
-
--(void) print;
 
 @end

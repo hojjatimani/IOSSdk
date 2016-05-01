@@ -1,11 +1,3 @@
-//
-//  Befrest.m
-//  SocketRocketTest
-//
-//  Created by Hojjat Imani on 11/25/1394 AP.
-//  Copyright © 1394 Hojjat Imani. All rights reserved.
-//
-
 #import "BRBefrest.h"
 #import "BRReachability.h"
 #import "BRWebSocket.h"
@@ -572,7 +564,7 @@ typedef enum{
 -(void) addToMessages:(NSDictionary *)msg{
     if(!messages)
         messages = [NSMutableArray array];
-    [messages addObject:[BefrestMessage createWithData:[msg objectForKey:@"m"] andTimeStamp:[msg objectForKey:@"ts"]]];
+    [messages addObject:[BRBefrestMessage createWithData:[msg objectForKey:@"m"] andTimeStamp:[msg objectForKey:@"ts"]]];
 }
 
 -(NSArray *) getMessages{
@@ -602,26 +594,6 @@ typedef enum{
 -(NSString *) decodeBase64:(NSString *) base64String{
     NSData *decodedData = [[NSData alloc] initWithBase64EncodedString:base64String options:0];
     return [[NSString alloc] initWithData:decodedData encoding:NSUTF8StringEncoding];
-}
-
-@end
-
-#pragma mark - Inner Classes
-
-@implementation BefrestMessage
-
-+(id) createWithData:(NSString *)data andTimeStamp: (NSString *) ts{
-    return [[self alloc] initwithData:data andTimeStamp:ts];
-}
-
--(void) print{
-    NSLog(@"BefrestPush:: data:%@  ,  timestamp:%@", self.data, self.timeStamp);
-}
-
--(id) initwithData:(NSString *)data andTimeStamp: (NSString *) ts{
-    self.data = data;
-    self.timeStamp = ts;
-    return self;
 }
 
 @end
